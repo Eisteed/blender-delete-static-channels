@@ -1,0 +1,45 @@
+schema_version = "1.0.0"
+
+# Extension metadata
+id = "delete_static_animation_channels"
+version = "1.0.1"
+name = "Delete Static Animation Channels"
+tagline = "Remove F-Curves with constant keyframe values to optimize animation data"
+maintainer = "VaishakhArt vaishakhart@gmail.com"
+type = "add-on"
+
+# Optional: documentation and support links
+# website = "http://vaishakhart.com/"
+
+# Tags for categorization on Blender Extensions platform
+tags = ["Animation"]
+
+# Minimum Blender version required
+blender_version_min = "4.0.0"
+
+# Optional: maximum Blender version (if incompatible with future versions)
+# blender_version_max = "5.0.0"
+
+# License information (use SPDX identifiers)
+license = ["SPDX:GPL-3.0-or-later"]
+
+# Copyright information
+copyright = ["2025 Vaishakhart"]
+
+# Build configuration (optional)
+# Exclude common development files from the extension package
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  ".*",
+  "*.zip",
+  "*.pyc",
+  ".git/",
+  ".vscode/",
+]
+
+# Permissions (this addon doesn't require any special permissions)
+# Uncomment if your addon needs file access, network, etc.
+# [permissions]
+# files = "Save and load animation data"
+# network = "Download animation presets"
